@@ -9,7 +9,7 @@ Key entities:
 
 
 
-#SQL Task
+# SQL Task
 1. Develop a query to calculate the number of games, played by each player, the number of won games by this payer, number of games ended as a tie, the average number of injures per game for this player. All these information must be output in one single result set. Based on these query create a custom db view.
 2. Create custom db function that will return the list of players with specific position. Function must accept position and separator character as input parameters and return a single string as a result.
 3. Create custom LOGGING db table. The following corresponding columns must be
