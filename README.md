@@ -14,9 +14,9 @@ Key entities:
 2. Create custom db function that will return the list of players with specific position. Function must accept position and separator character as input parameters and return a single string as a result.
 3. Create custom LOGGING db table. The following corresponding columns must be
 created:
-a. Record insert date;
-b. Referenced Table Name - Table Name where new record was inserted;
-c. Description - The list of key-value pairs, separated by semicolon. Note: empty
+- Record insert date;
+- Referenced Table Name - Table Name where new record was inserted;
+- Description - The list of key-value pairs, separated by semicolon. Note: empty
 values and their column names must be omitted.
 Add required changes to your DB Schema to populate current table columns each
 time when new record was inserted to any db table (in a scope of your schema).
