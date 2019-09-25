@@ -23,3 +23,14 @@ time when new record was inserted to any db table (in a scope of your schema).
 4. Prepare a SQL statement to output total/available space within each tablespace.
 5. Calculate “Used %” column value.
 Prepare a SQL Statement to calculate each table size in your schema.
+
+# How to run sql scripts
+
+1. run create_db.sql 
+2. run create_tables.sql
+3. run logging.sql 
+4. go to create_tables.sql and comment "create table ..." scripts and uncomment "insert into ..." scripts and run
+5. run tas_one.sql
+6. run function.sql
+7. run tablespace.sql
+8. run tablesize.sql
